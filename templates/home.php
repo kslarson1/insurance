@@ -44,13 +44,53 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-xs-12">
 				<h2>Personal</h2>
-				add logos here
+<!-- personal insurance logo repeater	 -->
+<?php
+
+// check if the repeater field has rows of data
+if( have_rows('providers') ):
+
+ 	// loop through the rows of data
+    while ( have_rows('providers') ) : the_row(); ?>
+
+        <img src="<?php the_sub_field('provider-logo'); ?>" style="padding-left: 1em"/>
+
+    <?php endwhile;
+
+else :
+
+    // no rows found
+
+endif;
+
+?>
+<!-- end of personal insurance logo repeater -->
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-12">
 				<h2>Business</h2>
-				add logos here
+<!-- personal insurance logo repeater	 -->
+<?php
+
+// check if the repeater field has rows of data
+if( have_rows('providers-biz') ):
+
+ 	// loop through the rows of data
+    while ( have_rows('providers-biz') ) : the_row(); ?>
+
+        <img src="<?php the_sub_field('provider-logo'); ?>" style="padding-left: 1em"/>
+
+    <?php endwhile;
+
+else :
+
+    // no rows found
+
+endif;
+
+?>
+<!-- end of personal insurance logo repeater -->
 			</div>
 		</div>
 	</div>

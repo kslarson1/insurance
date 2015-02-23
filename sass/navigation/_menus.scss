@@ -45,11 +45,12 @@
     display:block;
     padding: 22px 12px;
     line-height:1.2em;
-    color:$color_text_2;
+    color:$color_logo_2;
     text-decoration: none;
 }
 
 .main-navigation a:hover {
+    color: $white;
     text-decoration:none;
     background-color: $color_logo_2;
      -webkit-transition: all 250ms ease-in;
@@ -112,7 +113,7 @@
 .footer {
     width: 100%;
     margin: 0;
-    background-color: $color_header_1;
+    background-color: $gray-6;
     border-top: 4px solid $color_logo_2;
     color: $color_text_2;
     p {
@@ -191,7 +192,7 @@
     width: 100%;
     padding: .5em 0;
     margin: 0;
-    background-color: $gray-3;
+    background-color: $gray-4;
     p {
         color: $color_text_1;
     }

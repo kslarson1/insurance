@@ -27,7 +27,7 @@
 	width: 100%;
 	min-height: 120px;
 	padding: 2em;
-	background-color: $color_logo_1;
+	background-color: $color_logo_2;
 	color: $gray-1;
 	box-shadow: 0 0 12px 2px rgba(0, 0, 0, .4);
 	text-align: center;
@@ -42,6 +42,7 @@
 }
 
 #landing {
+	margin-top: -70px;
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -58,7 +59,6 @@
 #providers {
 	padding: 3em 0;
 	background-color: $gray-1;
-
 }
 
 #about {
@@ -67,6 +67,12 @@
 }
 
 #contact {
-	padding: 3em 0;
-	background-color: $gray-2;
+	padding: 5em 0;
+	background-color: $gray-1;
+	a:hover {
+		color: $logo-green;
+		-webkit-transition: all 0.2s ease-in-out;
+  		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
 }
