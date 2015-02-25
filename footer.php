@@ -15,7 +15,8 @@
 		<div class="footer_top">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-3">
-					<h4>logo</h4>
+					<img src="<?php bloginfo('template_directory'); ?>/images/logo.png" class="image_logo">
+					<br>
 					<span class="fa-stack fa-lg">
 						<a href="https://www.facebook.com/emilyparsonsinsurance?ref=hl" target="_blank">
   							<i class="fa fa-circle fa-stack-2x"></i>
@@ -23,7 +24,7 @@
 						</a>
 					</span>
 					<span class="fa-stack fa-lg">
-						<a href="https://www.linkedin.com/in/kevinmackessy" target="_blank">
+						<a href="https://www.linkedin.com/pub/emily-parsons/1b/870/178" target="_blank">
 			  				<i class="fa fa-circle fa-stack-2x"></i>
 			  				<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
 						</a>
@@ -31,7 +32,7 @@
 				</div>
 
 				<div class="col-xs-12 col-sm-6 col-md-3">
-					<h4>Contact</h4>
+					<h4>Get In Touch</h4>
 					<p>Connect to our team of experts to find out how we can be the solution for your insurance needs. We are dedicated to providing nothing but excellent service.</p>
 					<hr>
 					<a href="tel:13039106171" style="font-size: 14px"><i class="fa fa-phone"></i> (303) 910-6171</a>
